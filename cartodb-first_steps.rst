@@ -47,4 +47,5 @@ Let's jump right in. Grab this csv of :download:`Tasmanian lobster observations 
 
 :download:`Tasmanian lobster observations <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned.csv>`
 
+`Find the Tasmanian lobster observations data here <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned.csv>`_
 
