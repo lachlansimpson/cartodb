@@ -21,11 +21,13 @@ Alternatively, you can use the "New Map" button
 .. image:: imgs/dashboard_new_map.png
 
 
-In the top left we have the simple navigation options - change your view from maps to datasets.
+In the top left we have the simple navigation options - change your view
+from maps to datasets, and in the top right we can see our account information
+- 50 MB of free data.
+
 
 .. image:: imgs/dashboard_dropdown.png
 
-In the top right we can see our account information - 50 MB of free data.
 
 .. image:: imgs/dashboard_user.png
 
