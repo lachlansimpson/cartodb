@@ -11,7 +11,7 @@ Go to `CartoDB <http://cartodb.com>`_, create an account, and login.
 
 There is a small wait before you are logged into your Dashboard.
 
-.. image:: imgs/dashboard_annotated.png
+.. image:: imgs/signup_annotated.png
 
 At this point, creating a new map is as easy as dragging and dropping a
 suitable file onto the map.
