@@ -45,5 +45,6 @@ row, and two columns, one latitude, one longitude, each in decimal form.
 
 Let's jump right in. Grab this csv of :download:`Tasmanian lobster observations <data/lobsters_taroona_2006-2010_cleaned.csv>`.
 
+:download:`Tasmanian lobster observations <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned.csv>`
 
 
