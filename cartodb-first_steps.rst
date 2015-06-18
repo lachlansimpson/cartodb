@@ -65,6 +65,6 @@ should be right off the coast near Taroona)
 The map isn't much good looking like this - zoom in to get a better feel for the
 data set.
 
-
+.. image:: imgs/zoomed_map.png
 
 
