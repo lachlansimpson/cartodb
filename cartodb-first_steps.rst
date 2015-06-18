@@ -53,6 +53,6 @@ Let's jump right in. Grab this csv of :download:`Tasmanian lobster observations
 Once it's saved, open the folder you downloaded it to, and drag the file onto 
 CartoDB
 
-.. image:: imgs:drag_and_drop_data.png
+.. image:: imgs/drag_and_drop_data.png
 
 
