@@ -37,13 +37,22 @@ A Suitable File
 CartoDB is robust - it will accept almost any type of data file that has
 geographic data.
 
-The simplest example of this is a comma separated values file, or CSV, which 
+The simplest example of this is a comma separated values file, or CSV, which
 can be created in Excel from a single page of data.
 
 The only other requirements CartoDB has for data in CSV format are a header
 row, and two columns, one latitude, one longitude, each in decimal form.
 
-Let's jump right in. Grab this csv of :download:`Tasmanian lobster observations <data/lobsters_taroona_2006-2010_cleaned.csv>`.
+Let's jump right in. Grab this csv of :download:`Tasmanian lobster observations
+<data/lobsters_taroona_2006-2010_cleaned.csv>`.
 
-`Find the Tasmanian lobster observations data here <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned.csv>`_ (right or command click, save as...)
+`Find the Tasmanian lobster observations data here
+<https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned.csv>`_
+(right or command click, save as...)
+
+Once it's saved, open the folder you downloaded it to, and drag the file onto 
+CartoDB
+
+.. image:: imgs:drag_and_drop_data.png
+
 
