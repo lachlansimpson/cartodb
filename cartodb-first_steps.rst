@@ -57,7 +57,7 @@ CartoDB
 
 And with that, you have your first map. Ridiculously simple. 
 
-.. image:: imges/first_map.png
+.. image:: imgs/first_map.png
 
 (some people may need to scroll to the east a little to see the lobsters - they
 should be right off the coast near Taroona)
