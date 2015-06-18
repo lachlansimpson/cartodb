@@ -12,7 +12,6 @@ Go to `CartoDB <http://cartodb.com>`_, create an account, and login.
 There is a small wait before you are logged into your Dashboard.
 
 
-
 At this point, creating a new map is as easy as dragging and dropping a
 suitable file onto the map.
 
@@ -54,5 +53,18 @@ Once it's saved, open the folder you downloaded it to, and drag the file onto
 CartoDB
 
 .. image:: imgs/drag_and_drop_data.png
+
+
+And with that, you have your first map. Ridiculously simple. 
+
+.. image:: imges/first_map.png
+
+(some people may need to scroll to the east a little to see the lobsters - they
+should be right off the coast near Taroona)
+
+The map isn't much good looking like this - zoom in to get a better feel for the
+data set.
+
+
 
 
