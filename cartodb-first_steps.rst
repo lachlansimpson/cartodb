@@ -49,25 +49,38 @@ Let's jump right in. Grab this csv of :download:`Tasmanian lobster observations
 <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned.csv>`_
 (right or command click, save as...)
 
-Once it's saved, open the folder you downloaded it to, and drag the file onto 
+Once it's saved, open the folder you downloaded it to, and drag the file onto
 CartoDB
 
 .. image:: imgs/drag_and_drop_data.png
 
 
-And with that, you have your first map. Ridiculously simple. 
+And with that, you have your first map. Ridiculously simple.
 
 .. image:: imgs/first_map.png
 
-(some people may need to scroll to the east a little to see the main lobster data - they should be right off the coast near Taroona. There is a small data set just to the west, which is why neither is on screen - you have been centred.)
+(some people may need to scroll to the east a little to see the main lobster
+data - they should be right off the coast near Taroona. There is a small
+data set just to the west, which is why neither is on screen - you have
+been centred.)
 
-The map isn't much good looking like this - zoom in to get a better feel for the
+The map isn't much good looking like this - zoom in to get a better feel
+for the
 data set.
 .. image:: imgs/zoomed_map.png
 
-To change the underlying map, click the button in the lower right hand corner that says "Change basemap":
+To change the underlying map, click the button in the lower right hand corner
+that says "Change basemap":
 
 .. image:: imgs/change_basemap.png
 
+There are a number of maps to choose from, and you can add your own if you 
+would rather. There's the satellite view:
+
 .. image:: imgs/new_basemap.png
+
+and the street map view:
+
+.. image:: imgs/street_map_basemap.png
+
 
