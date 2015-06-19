@@ -59,12 +59,15 @@ And with that, you have your first map. Ridiculously simple.
 
 .. image:: imgs/first_map.png
 
-(some people may need to scroll to the east a little to see the lobsters - they
-should be right off the coast near Taroona)
+(some people may need to scroll to the east a little to see the main lobster data - they should be right off the coast near Taroona. There is a small data set just to the west, which is why neither is on screen - you have been centred.)
 
 The map isn't much good looking like this - zoom in to get a better feel for the
 data set.
-
 .. image:: imgs/zoomed_map.png
 
+To change the underlying map, click the button in the lower right hand corner that says "Change basemap":
+
+.. image:: imgs/change_basemap.png
+
+.. image:: imgs/new_basemap.png
 
