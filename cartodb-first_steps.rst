@@ -193,8 +193,12 @@ When the data is excluded, you will see an SQL statement like this:
 
 
 
+==============
+END tutorial 1
+==============
+
+In Tutorial 2 we will be looking at the different wizards that are available,
+what each does or how it can be used, and how we can share our resulting maps.
 
 
-**Wizards**: this is where we can change the style of map to better suit our 
-data or what we are trying to tell. Beware, hours can be lost down this hole.
 
