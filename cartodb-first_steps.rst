@@ -173,7 +173,7 @@ choices are displayed
 
 Each of those values is able to be excluded from the data set by clicking on it
 
-.. image:: imgs/filters_sex_values_m_removed.png
+.. image:: imgs/filters_sex_value_m_removed.png
 
 
 **Wizards**: this is where we can change the style of map to better suit our 
