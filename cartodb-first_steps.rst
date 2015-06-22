@@ -197,7 +197,7 @@ When the data is excluded, you will see an SQL statement like this:
 END tutorial 1
 ==============
 
-In `Tutorial 2 <cartodb-wzards.rst>`_ we will be looking at the different 
+In `Tutorial 2 <cartodb-wizards.rst>`_ we will be looking at the different 
 wizards that are available, what each does or how it can be used, and how we 
 can share our resulting maps.
 
