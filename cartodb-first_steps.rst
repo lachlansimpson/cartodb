@@ -119,5 +119,10 @@ The Slider
 ----------
 
 The slider is the main way to interact with your data and map through the web.
+The purpose of many tabs in the right hand column are self evident - SQL gives 
+you the opportunity to write your own queries, CSS gives you the chance to 
+modify the design.
 
 .. image:: imgs/the_slider.png
+
+
