@@ -64,9 +64,15 @@ data - they should be right off the coast near Taroona. There is a small
 data set just to the west, which is why neither is on screen - you have
 been centred.)
 
+Let's Make Pretty
+=================
+
+---------
+Base Maps
+---------
+
 The map isn't much good looking like this - zoom in to get a better feel
-for the
-data set.
+for the data set.
 .. image:: imgs/zoomed_map.png
 
 To change the underlying map, click the button in the lower right hand corner
@@ -74,7 +80,7 @@ that says "Change basemap":
 
 .. image:: imgs/change_basemap.png
 
-There are a number of maps to choose from, and you can add your own if you 
+There are a number of maps to choose from, and you can add your own if you
 would rather. There's the satellite view:
 
 .. image:: imgs/new_basemap.png
@@ -82,5 +88,19 @@ would rather. There's the satellite view:
 and the street map view:
 
 .. image:: imgs/street_map_basemap.png
+
+------------
+Info Windows
+------------
+
+At the moment, the data is just dots on a page. That's pretty impressive
+for the amount of work we have done, but we *know* there is more than just
+location data, and it's all right there. How can we bring it out?
+
+You can pick any data point (in our case, we need to zoom in to get a
+particular lobster data point), and click on it.
+
+.. image:: imgs/info_window_start.png
+
 
 
