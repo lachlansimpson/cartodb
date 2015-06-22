@@ -103,6 +103,13 @@ particular lobster data point), and click on it.
 
 .. image:: imgs/info_windows_start.png
 
+Click on select fields and the slider will appear on the right hand side with
+all the data fields listed.
 
+.. image:: imgs/info_windows_choose_data.png
 
+I have decided to use the hover effect rather than the click effect, so
+I choose the hover tab. I then select the data I want to display for each
+point on the map.
 
+.. image:: imgs/info_windows_hover.png
