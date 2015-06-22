@@ -73,6 +73,7 @@ Base Maps
 
 The map isn't much good looking like this - zoom in to get a better feel
 for the data set.
+
 .. image:: imgs/zoomed_map.png
 
 To change the underlying map, click the button in the lower right hand corner
@@ -100,7 +101,8 @@ location data, and it's all right there. How can we bring it out?
 You can pick any data point (in our case, we need to zoom in to get a
 particular lobster data point), and click on it.
 
-.. image:: imgs/info_window_start.png
+.. image:: imgs/info_windows_start.png
+
 
 
 
