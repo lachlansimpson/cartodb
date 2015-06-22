@@ -113,3 +113,11 @@ I choose the hover tab. I then select the data I want to display for each
 point on the map.
 
 .. image:: imgs/info_windows_hover.png
+
+----------
+The Slider
+----------
+
+The slider is the main way to interact with your data and map through the web.
+
+.. image:: imgs/the_slider.png
