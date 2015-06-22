@@ -119,7 +119,7 @@ As you hover over the data points you will see that some of them don't have
 complete data - some are missing Berried State (which, for lobster researchers
 indicates status of reproductive eggs within the lobster), and others are 
 missing Weight. You will also note that the field berried_state is rendered
-Berried_State. Let's fix both of these.
+BERRIED_STATE . Let's fix both of these.
 
 In this image you can see the two links that will take you to the editing page
 for each of these. 
@@ -151,6 +151,94 @@ Hit the "change HTML" button, and the display will change to look like this:
         <p>{{weight}}</p>
       </div>
     </div>
+
+This is the general guide to use - note that I have added unnecessary 
+indenting to make the code easier to read:
+
+.. code:: HTML
+
+    {{#col_name}}
+        <p>{{col_name}}</p>
+    {{/col_name}}
+
+    {{^col_name}}
+        <p>No information</p>
+    {{/col_name}}
+
+
+Here you can see that we are using the tags # and ^. The # tells the map 
+"ignore if this value doesn't exist/is empty/false". The ^ tells the map "do 
+the opposite of the previous selection". 
+
+So, if we change the weight field like such, we will get no titles on empty 
+weight values. 
+
+.. code:: HTML
+
+  	{{#weight}}  
+        <h4>weight</h4>
+        <p>{{weight}}</p>
+ 	{{/weight}}
+
+
+And if we change the weight field like this, we will get no titles on empty 
+weight values, but we will get a heading that says "Weight" and a value that 
+says "Not recorded".
+
+.. code:: HTML
+
+  	{{#weight}}  
+        <h4>weight</h4>
+        <p>{{weight}}</p>
+ 	{{/weight}}
+  	{{^weight}}  
+        <h4>weight</h4>
+        <p>Not recorded</p>
+ 	{{/weight}}
+
+
+We want to remove the tags completely if they are empty, so we make them look
+like this:
+
+.. code:: HTML
+
+    <div class="cartodb-tooltip-content-wrapper">
+      <div class="cartodb-tooltip-content">
+        {{#berried_state}}
+            <h4>Berried State</h4>
+            <p>{{berried_state}}</p>
+        {{/berried_state}}
+        {{#colour}}
+            <h4>colour</h4>
+            <p>{{colour}}</p>
+        {{/colour}}
+        {{#depth}}
+            <h4>depth</h4>
+            <p>{{depth}}</p>
+        {{/depth}}
+        {{#sex}}
+            <h4>sex</h4>
+            <p>{{sex}}</p>
+  	    {{/sex}}
+  	    {{#weight}}  
+            <h4>weight</h4>
+            <p>{{weight}}</p>
+ 	    {{/weight}}
+      </div>
+    </div>
+
+And lo, after we click "Apply", it has worked as we wished:
+
+.. image:: imgs/info_windows_edited.png
+
+
+Note that if we go back to the visual (non code) editing screen, we are 
+presented with a warning that we will loose our HTML changes if we click 
+"Proceed". This is not a lie - if you want to save your changes, you will need 
+to copy the HTML to a text file or something. Otherwise, YOU WILL LOSE YOUR 
+CHANGES PERMANENTLY.
+
+.. image:: imgs/info_windows_warning.png
 
 
 
