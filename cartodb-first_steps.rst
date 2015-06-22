@@ -114,6 +114,22 @@ point on the map.
 
 .. image:: imgs/info_windows_hover.png
 
+
+--------
+Elements
+--------
+
+Of course, from the map page we can add titles, annotations, text over lays and
+images:
+
+.. image:: imgs/elements_new.png
+
+.. image:: imgs/elements_all.png
+
+These are all quite garish, but are merely examples of what can be done on this
+simplest of maps.
+
+
 ----------
 The Slider
 ----------
@@ -125,15 +141,6 @@ modify the design.
 
 .. image:: imgs/the_slider.png
 
-**Wizards**: this is where we can change the style of map to better suit our 
-data or what we are trying to tell. Beware, hours can be lost down this hole.
-
-**Legends**: here we can change the legend and info window's design through 
-the GUI.
-
-**Filters**: Reduce your data set by value - eg, remove all the data points 
-with "sex = M"
-
 
 Legends
 -------
@@ -143,15 +150,32 @@ the map, like a traditional map legend:
 
 .. image:: imgs/legends_icons.png
 
+Note that the Legend will *always* be in the lower right hand corner of any 
+CartoDB map by default. 
 
-Elements
---------
 
-Of course, from the map page we can add titles, annotations, text over lays and
-images:
+Filters
+-------
 
-.. image:: imgs/elements_new.png
+Reduce your data set by value - eg, remove all the data points 
+with "sex = M".
 
-.. image:: imgs/elements_all.png
+When you select the filters tab you immediately see the option to filter by a 
+column in your data. Let's choose sex, because we know it has few potential 
+values and will easily illustrate what we want.
 
+.. image:: imgs/filter_choice.png
+
+After we choose the column we want, the data is interrogated and our available 
+choices are displayed
+
+.. image:: imgs/filter_sex_values_illustrated.png
+
+Each of those values is able to be excluded from the data set by clicking on it
+
+.. image:: imgs/filter_sex_values_m_removed.png
+
+
+**Wizards**: this is where we can change the style of map to better suit our 
+data or what we are trying to tell. Beware, hours can be lost down this hole.
 
