@@ -169,11 +169,11 @@ values and will easily illustrate what we want.
 After we choose the column we want, the data is interrogated and our available 
 choices are displayed
 
-.. image:: imgs/filter_sex_values_illustrated.png
+.. image:: imgs/filters_sex_values_illustrated.png
 
 Each of those values is able to be excluded from the data set by clicking on it
 
-.. image:: imgs/filter_sex_values_m_removed.png
+.. image:: imgs/filters_sex_values_m_removed.png
 
 
 **Wizards**: this is where we can change the style of map to better suit our 
