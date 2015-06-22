@@ -141,7 +141,7 @@ Legends
 If we choose the Legends tab, we can start adding more design aware features to
 the map, like a traditional map legend:
 
-.. images:: imgs/legends_icons.png
+.. image:: imgs/legends_icons.png
 
 
 Elements
@@ -150,8 +150,8 @@ Elements
 Of course, from the map page we can add titles, annotations, text over lays and
 images:
 
-.. images:: imgs/elements_new.png
+.. image:: imgs/elements_new.png
 
-.. images:: imgs/elements_all.png
+.. image:: imgs/elements_all.png
 
 
