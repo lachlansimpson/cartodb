@@ -115,6 +115,45 @@ point on the map.
 .. image:: imgs/info_windows_hover.png
 
 
+As you hover over the data points you will see that some of them don't have
+complete data - some are missing Berried State (which, for lobster researchers
+indicates status of reproductive eggs within the lobster), and others are 
+missing Weight. You will also note that the field berried_state is rendered
+Berried_State. Let's fix both of these.
+
+In this image you can see the two links that will take you to the editing page
+for each of these. 
+
+Go to the edit page for titles and change berried_state to berried state.
+
+.. image:: imgs/info_windows_editing.png
+
+And now let's fix our hover effect so that it doesn't display titles for data 
+that doesn't exist. In this case, we will need to write some code. Don't worry 
+- at the end of this short exercise you will be able to call yourself a coder
+when talking to over inquisitive nerdphews at Christmas. 
+
+Hit the "change HTML" button, and the display will change to look like this:
+
+.. code:: HTML
+
+    <div class="cartodb-tooltip-content-wrapper">
+      <div class="cartodb-tooltip-content">
+        <h4>Berried State</h4>
+        <p>{{berried_state}}</p>
+        <h4>colour</h4>
+        <p>{{colour}}</p>
+        <h4>depth</h4>
+        <p>{{depth}}</p>
+        <h4>sex</h4>
+        <p>{{sex}}</p>
+        <h4>weight</h4>
+        <p>{{weight}}</p>
+      </div>
+    </div>
+
+
+
 --------
 Elements
 --------
