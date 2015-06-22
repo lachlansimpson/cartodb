@@ -125,4 +125,33 @@ modify the design.
 
 .. image:: imgs/the_slider.png
 
+**Wizards**: this is where we can change the style of map to better suit our 
+data or what we are trying to tell. Beware, hours can be lost down this hole.
+
+**Legends**: here we can change the legend and info window's design through 
+the GUI.
+
+**Filters**: Reduce your data set by value - eg, remove all the data points 
+with "sex = M"
+
+
+Legends
+-------
+ 
+If we choose the Legends tab, we can start adding more design aware features to
+the map, like a traditional map legend:
+
+.. images:: imgs/legends_icons.png
+
+
+Elements
+--------
+
+Of course, from the map page we can add titles, annotations, text over lays and
+images:
+
+.. images:: imgs/elements_new.png
+
+.. images:: imgs/elements_all.png
+
 
