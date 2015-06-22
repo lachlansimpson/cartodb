@@ -175,6 +175,25 @@ Each of those values is able to be excluded from the data set by clicking on it
 
 .. image:: imgs/filters_sex_value_m_removed.png
 
+It's worth noting that here we can see the SQL tab in action - if you know SQL
+or are interested in how it might work within CartoDB - click on the SQL tab
+with some data excluded.
+
+Without the excluded data, you would see this SQL command:
+
+.. code:: sql
+
+    SELECT * FROM lobsters_taroona_2006_2010_cleaned
+
+When the data is excluded, you will see an SQL statement like this:
+
+.. code:: sql
+
+    SELECT * FROM lobsters_taroona_2006_2010_cleaned WHERE sex IN ('F','') OR sex IS NULL
+
+
+
+
 
 **Wizards**: this is where we can change the style of map to better suit our 
 data or what we are trying to tell. Beware, hours can be lost down this hole.
