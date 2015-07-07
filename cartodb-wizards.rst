@@ -21,9 +21,11 @@ working with the "simple" wizard.
 Cluster Maps
 ============
 
-Cluster maps are really good for showing data at various zoom levels. 
+Cluster maps are really good for showing data at various zoom levels. By 
+clustering points that are in a similar vicinity and showing the total, it can
+be easier to see where all the action is. 
 
-The 
+.. image:: imgs/lobsters_as_clustermap.png
 
 
 ==============
