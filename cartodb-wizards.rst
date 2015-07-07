@@ -41,7 +41,7 @@ length on the map.
 
 .. image:: imgs/choropleth_config.png
 
-.. image:: imgs/lobsters_choropleth.png
+.. image:: imgs/lobsters_choroplethmap.png
 
 If none of your variables can be divided into groups, this map is meaningless.  
 
