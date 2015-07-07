@@ -45,6 +45,23 @@ length on the map.
 
 If none of your variables can be divided into groups, this map is meaningless.  
 
+
+Category Maps
+=============
+
+The category map is similar to the choropleth map but works better on distinct
+data rather than continuous data.
+
+In this instance, I've made a category map from the lobster's berried state - 
+which is scientifical parlance for "with or without eggs". As the researcher 
+Caleb Gardner from the University of Tasmania explains
+
+
+    n=not berried (not carrying eggs beneath their tails).  y = berried.  All the other variants of berried state = y relate to the state of the eggs.  For example ye = berried eyed = the eyes of the larvae are visible as black dots inside the eggs.  These aren't recorded well so I'd reduce them all down to either y or n.
+
+.. image:: imgs/lobster_categorymap.png
+
+
 ==============
 END tutorial 2 
 ==============
