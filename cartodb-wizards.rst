@@ -68,11 +68,17 @@ Bubble Maps
 Bubble maps are useful for visualising size differences of a numerical value 
 column in your data. In the lobster's case, we can again see the carapace
 length used, and the different sized bubbles as a result. Note also how it 
-stacks neatly the lobsters of different length that aere found in the same 
+stacks neatly the lobsters of different length that are found in the same 
 spot.
 
 .. image:: imgs/lobster_bubblemap.png
 
+
+It's not a perfect data set to show this information - a common usage is as a
+population bubble for towns on a map, or as in this case, medal tally in the 
+Olympics
+
+.. image:: https://visualign.files.wordpress.com/2012/08/2012londonresults.png
 
 
 
