@@ -34,8 +34,8 @@ and out of the vicinity of each other.
 Choropleth Maps
 ===============
 
-The Choropleth map allows for a second variable to be distinguished in the data
- - as you can see here the carapace length has been divided into five "buckets"
+The Choropleth map allows for a second variable to be distinguished in the data - 
+as you can see here the carapace length has been divided into five "buckets"
 and each bucket given a colour. Now we can see a visualistation of the carapace
 length on the map.
 
@@ -43,7 +43,7 @@ length on the map.
 
 .. image:: imgs/lobsters_choropleth.png
 
-If none of your variables can be divided into groups, this map is meaningless.
+If none of your variables can be divided into groups, this map is meaningless.  
 
 ==============
 END tutorial 2 
