@@ -175,10 +175,10 @@ weight values.
 
 .. code:: HTML
 
-  	{{#weight}}  
+    {{#weight}}  
         <h4>weight</h4>
         <p>{{weight}}</p>
- 	{{/weight}}
+    {{/weight}}
 
 
 And if we change the weight field like this, we will get no titles on empty 
@@ -191,7 +191,7 @@ says "Not recorded".
         <h4>weight</h4>
         <p>{{weight}}</p>
  	{{/weight}}
-  	{{^weight}}  
+  	{{^weight}}
         <h4>weight</h4>
         <p>Not recorded</p>
  	{{/weight}}
@@ -298,7 +298,9 @@ choices are displayed
 
 .. image:: imgs/filters_sex_values_illustrated.png
 
-Each of those values is able to be excluded from the data set by clicking on it
+Each of those values is able to be excluded from the data set by clicking on 
+it. As you can see here - excluding the male lobsters reduces the number of 
+dots on the map - exactly what we would expect.
 
 .. image:: imgs/filters_sex_value_m_removed.png
 
