@@ -187,14 +187,14 @@ says "Not recorded".
 
 .. code:: HTML
 
-  	{{#weight}}  
+    {{#weight}}  
         <h4>weight</h4>
         <p>{{weight}}</p>
- 	{{/weight}}
-  	{{^weight}}
+    {{/weight}}
+    {{^weight}}
         <h4>weight</h4>
         <p>Not recorded</p>
- 	{{/weight}}
+    {{/weight}}
 
 
 We want to remove the tags completely if they are empty, so we make them look
