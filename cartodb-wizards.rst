@@ -62,6 +62,20 @@ Caleb Gardner from the University of Tasmania explains
 .. image:: imgs/lobster_categorymap.png
 
 
+Bubble Maps
+===========
+
+Bubble maps are useful for visualising size differences of a numerical value 
+column in your data. In the lobster's case, we can again see the carapace
+length used, and the different sized bubbles as a result. Note also how it 
+stacks neatly the lobsters of different length that aere found in the same 
+spot.
+
+.. image:: imgs/lobster_bubblemap.png
+
+
+
+
 ==============
 END tutorial 2 
 ==============
