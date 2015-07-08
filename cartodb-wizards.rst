@@ -170,11 +170,11 @@ this map - here we can see some interesting effects with a few small changes.
 
 Change the following and see how it affects the map:
 
- - Cumulative
- - Marker type
- - Duration
- - Steps
- - Trails (try with cumulative on and off to see the difference; reduce to 0 as
+* Cumulative
+* Marker type
+* Duration
+* Steps
+* Trails (try with cumulative on and off to see the difference; reduce to 0 as
  well)
 
 I think the most interesting is Steps - especially because the list is set to 
