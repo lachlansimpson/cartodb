@@ -133,7 +133,7 @@ fascists.
 **bugger**.
 
 Right. Since we are footloose and fancyfree, let's just fix the data and load 
-it again. (
+it again. (`here is one I prepared earlier <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned_dates.csv>_`) 
 
 
 
