@@ -174,8 +174,8 @@ Change the following and see how it affects the map:
 * Marker type
 * Duration
 * Steps
-* Trails (try with cumulative on and off to see the difference; reduce to 0 as
- well)
+* Trails (try with cumulative on and off to see the difference; reduce to 0 as 
+well)
 
 I think the most interesting is Steps - especially because the list is set to 
 certain numbers. Steps indicates what number to divide the total distance by
