@@ -81,6 +81,22 @@ Olympics
 .. image:: https://visualign.files.wordpress.com/2012/08/2012londonresults.png
 
 
+Torque Maps
+===========
+
+Torque maps change on a variable that shows either regular growth or a date 
+format. For example, if you have a date value that changes per tuple (eg: year 
+in which a national constitution is written), your map can automatically show
+this in motion. 
+
+Below we see the that the lobster data automatically picks up the tuple id as a
+variable to torque, so you see each dot appearing in order. This isn't really 
+very usful in this case but shows how the Torque map works.
+
+.. image:: imgs/recorded.gif
+
+
+
 
 ==============
 END tutorial 2 
