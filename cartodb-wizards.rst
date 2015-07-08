@@ -95,6 +95,45 @@ very usful in this case but shows how the Torque map works.
 
 .. image:: imgs/recorded.gif
 
+The Torque map has some interesting properties, so let's spend some time 
+playing.
+
+First, as noted above, the id number is a valid torque, but somewhat useless. 
+Let's take a look at the underlying data and see if there is a better field to 
+use.
+
+At the top of the screen, you will see the view button, select "Data View" and
+we will see the underlying data.
+
+.. image:: imgs/cartodb_view.png
+
+If we scroll across to the shot_date field, we see that the dates are there, 
+but unrecognised - they are listed as "string".
+
+.. image:: imgs/cartodb_data_types.png
+
+Drop down the arrow and choose "Change data type..."
+
+.. images:: imgs/cartodb_data_change.png
+
+You will then be shown the types of data that are available. Choose date.
+
+.. images:: imgs/cartodb_data_choice.png
+
+And then you get a warning. Ergh. Unconvertible data will be lost? What does 
+that mean - is it just a warning or is it specifically a warning based on *our*
+data? Ergh. Coders need to spend more time with users. Let's click Yes and see
+what happens.
+
+.. images:: imgs/cartodb_data_warning.png
+
+And now we see that large parts of the column are null. Bugger. American date
+fascists.
+
+**bugger**.
+
+Right. Since we are footloose and fancyfree, let's just fix the data and load 
+it again. (
 
 
 
