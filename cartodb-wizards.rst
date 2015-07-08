@@ -118,7 +118,7 @@ Drop down the arrow and choose "Change data type..."
 
 You will then be shown the types of data that are available. Choose date.
 
-.. image:: imgs/cartodb_data_choice.png
+.. image:: imgs/cartodb_data_type_choice.png
 
 And then you get a warning. Ergh. Unconvertible data will be lost? What does 
 that mean - is it just a warning or is it specifically a warning based on *our*
