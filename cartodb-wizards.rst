@@ -138,7 +138,10 @@ Right. Since we are footloose and fancyfree, let's just fix the data and load
 it again. Depending on your tool (Excel, LibreOffice Calc, etc) there are a 
 number of ways to do this which will be left as an exercise for the reader.
 
-In the meantime, `here is one I prepared earlier <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned_dates.csv>`_
+In the meantime, `here is one I prepared earlier <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned_dates.csv>`_. 
+For the record, the difference between the files is one had dates DD-MM-YYYY, 
+but CartoDB wants either: MM-DD-YYYY, YYYY-MM-DD or a special back end format
+for PostgreSQL that I won't bother explaining. 
 
 Right click that and save as. 
 
@@ -153,9 +156,54 @@ You will be asked to confirm...
 .. image:: imgs/cartodb_delete_confirm.png
 
 Now, let's drag the new csv we downloaded on to our empty account page, and see
-how it's worked.
+how it's worked. Great - looks excellent. And we can see that CartoDB has done 
+some work in the background to change the date into the back end PostgreSQL 
+format I alluded to earlier. 
 
 .. image:: imgs/cartodb_date_correct.png
+
+Where were we? Oh, Torque maps. Right. So let's do that again, with the 
+shot_date field instead of the ID field.
+
+It actually looks pretty good. It's worth checking out the config drawer for 
+this map - here we can see some interesting effects with a few small changes.
+
+Change the following and see how it affects the map:
+
+ - Cumulative
+ - Marker type
+ - Duration
+ - Steps
+ - Trails (try with cumulative on and off to see the difference; reduce to 0 as
+ well)
+
+I think the most interesting is Steps - especially because the list is set to 
+certain numbers. Steps indicates what number to divide the total distance by
+to get discrete units.
+
+In our case, we have two dates - the earliest is 2006-01-16 and the latest is
+2011-10-19. Since the date on each tuple represents a single day, we want days.
+So, `using the internet <http://www.timeanddate.com/date/durationresult.html?d1=16&m1=01&y1=2006&d2=19&m2=10&y2=2011&ti=on>`_, 
+we find that this is 2103 days.
+
+Again, it's not massively important in this case, but in some cases (where the
+granularity is a year for instance, instead of a day), it can change how the
+map looks.
+
+To change the steps to what we want is easy - click on the CSS tab, and change
+the value of "-torque-frame-count:64" to "-torque-frame-count:2103" and press 
+"Apply style".
+
+.. image:: imgs/cartodb_css.png
+
+The reason we are showing you this is because...you will see how easy it is to 
+destroy work if you are not careful - if you now click back on the "Wizard" tab
+you will see that the value for Steps has returned to 64. If you make *any* 
+further changes, steps will revert to 64, you can confirm this by returning to 
+the CSS tab.
+
+An annoying gotcha to watch out for.
+
 
 
 ==============
