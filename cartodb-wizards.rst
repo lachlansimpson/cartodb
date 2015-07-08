@@ -135,8 +135,27 @@ fascists.
 **Bugger**.
 
 Right. Since we are footloose and fancyfree, let's just fix the data and load 
-it again. (`here is one I prepared earlier <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned_dates.csv>`_) 
+it again. Depending on your tool (Excel, LibreOffice Calc, etc) there are a 
+number of ways to do this which will be left as an exercise for the reader.
 
+In the meantime, `here is one I prepared earlier <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned_dates.csv>`_
+
+Right click that and save as. 
+
+Then, in your map, go to the top roght corner, drop the Edit menu down and 
+choose "Delete Map". Yep, let's just nuke it - we haven't really made any big
+changes yet, so nuke and rebuild is the easiest route.
+
+.. image:: imgs/cartodb_delete.png
+
+You will be asked to confirm...
+
+.. image:: imgs/cartodb_delete_confirm.png
+
+Now, let's drag the new csv we downloaded on to our empty account page, and see
+how it's worked.
+
+.. image:: imgs/cartodb_date_correct.png
 
 
 ==============
