@@ -114,23 +114,25 @@ but unrecognised - they are listed as "string".
 
 Drop down the arrow and choose "Change data type..."
 
-.. images:: imgs/cartodb_data_change.png
+.. image:: imgs/cartodb_data_change.png
 
 You will then be shown the types of data that are available. Choose date.
 
-.. images:: imgs/cartodb_data_choice.png
+.. image:: imgs/cartodb_data_choice.png
 
 And then you get a warning. Ergh. Unconvertible data will be lost? What does 
 that mean - is it just a warning or is it specifically a warning based on *our*
 data? Ergh. Coders need to spend more time with users. Let's click Yes and see
 what happens.
 
-.. images:: imgs/cartodb_data_warning.png
+.. image:: imgs/cartodb_data_warning.png
 
 And now we see that large parts of the column are null. Bugger. American date
 fascists.
 
-**bugger**.
+.. image:: imgs/cartodb_data_destroyed.png
+
+**Bugger**.
 
 Right. Since we are footloose and fancyfree, let's just fix the data and load 
 it again. (`here is one I prepared earlier <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned_dates.csv>`_) 
