@@ -88,9 +88,8 @@ The heat map is useful for the artistic minded individual. All values are repres
 For example, this map shows every meteorite know to humans, that has fallen onto Earth. 
 
 .. raw:: html
-    <embed>
         <iframe width='100%' height='520' frameborder='0' src='http://simonrogers.cartodb.com/tables/meteoritessize/embed_map?title=false&description=true&search=true&shareable=true&cartodb_logo=true&sql=&zoom=2&center_lat=15.633333&center_lon=32.533333' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-    </embed>
+    
 
 Torque Maps
 ===========
