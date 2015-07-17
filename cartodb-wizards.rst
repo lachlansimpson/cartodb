@@ -80,6 +80,18 @@ Olympics
 
 .. image:: https://visualign.files.wordpress.com/2012/08/2012londonresults.png
 
+Heat Maps
+==========
+
+The heat map is useful for the artistic minded individual. All values are represented in colours. This allows us to understand complex data sets.
+ 
+For example, this map shows every meteorite know to humans, that has fallen onto Earth. 
+
+.. image :: imgs/Meteorites_in_Aus.png
+
+
+Taken from the `BBC article <http://www.theguardian.com/news/datablog/interactive/2013/feb/15/meteorite-fall-map>`_ by `Simon Rodgers <https://simonrogers.cartodb.com/maps>`_. 
+    
 
 Torque Maps
 ===========
@@ -122,7 +134,7 @@ You will then be shown the types of data that are available. Choose date.
 
 And then you get a warning. Ergh. Unconvertible data will be lost? What does 
 that mean - is it just a warning or is it specifically a warning based on *our*
-data? Ergh. Coders need to spend more time with users. Let's click Yes and see
+data? Coders need to spend more time with users. Let's click Yes and see
 what happens.
 
 .. image:: imgs/cartodb_data_warning.png
@@ -196,7 +208,7 @@ the value of "-torque-frame-count:64" to "-torque-frame-count:2103" and press
 
 .. image:: imgs/cartodb_css.png
 
-The reason we are showing you this is because...you will see how easy it is to 
+The reason we are showing you this is because you will see how easy it is to 
 destroy work if you are not careful - if you now click back on the "Wizard" tab
 you will see that the value for Steps has returned to 64. If you make *any* 
 further changes, steps will revert to 64, you can confirm this by returning to 
@@ -209,7 +221,7 @@ An annoying gotcha to watch out for.
 ==============
 END tutorial 2 
 ==============
-Anything by Hannah
+
 
 
 
