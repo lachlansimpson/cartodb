@@ -14,3 +14,4 @@ Later we will look at how to take the simplest of maps and make it more
 responsive, by both utilising live data and utilising data with dates to
 make a map that shows changes over time.
 
+To start the tutorial, click on `"CartoDB - First Steps" <https://github.com/datakid/cartodb/blob/master/cartodb-first_steps.rst>`_
