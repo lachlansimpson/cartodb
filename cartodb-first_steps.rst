@@ -47,7 +47,10 @@ row, and two columns, one latitude, one longitude, each in decimal form.
  :download:`Tasmanian lobster observations <data/lobsters_taroona_2006-2010_cleaned.csv>`.
 ..
 
-`Find the Tasmanian lobster observations data here
+Jumping right in, we have some Tasmanian Lobster data that was collected by 
+Caleb Gardner and Peter Walsh at the `Institute for Marine and Antarctic 
+Studies, University of Tasmania <http://www.imas.utas.edu.au/>`_. You can 
+`find the Tasmanian lobster observations data here
 <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned.csv>`_
 (right or command click, save as...)
 
