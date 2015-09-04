@@ -217,6 +217,14 @@ the CSS tab.
 An annoying gotcha to watch out for.
 
 
+===================================
+CartoDB: Use Layers for richer maps
+===================================
+
+.. image:: imgs/menu_layers.png
+
+
+
 
 ==============
 END tutorial 2 
