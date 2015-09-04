@@ -42,15 +42,10 @@ can be created in Excel from a single page of data.
 The only other requirements CartoDB has for data in CSV format are a header
 row, and two columns, one latitude, one longitude, each in decimal form.
 
-..
- Let's jump right in. Grab this csv of 
- :download:`Tasmanian lobster observations <data/lobsters_taroona_2006-2010_cleaned.csv>`.
-..
-
-Jumping right in, we have some Tasmanian Lobster data that was collected by 
-Caleb Gardner and Peter Walsh at the `Institute for Marine and Antarctic 
-Studies, University of Tasmania <http://www.imas.utas.edu.au/>`_. You can 
-`find the Tasmanian lobster observations data here
+Jumping right in, we have some `Southern Rock Lobster data <https://researchdata.ands.org.au/search/#!/slug=dictionary-schema-diagram-sampling-database>`_ 
+that was collected by Caleb Gardner and Peter Walsh at the `Institute for Marine and Antarctic 
+Studies, University of Tasmania <http://www.imas.utas.edu.au/>`_. 
+You can `find the Tasmanian lobster observations data here
 <https://raw.githubusercontent.com/datakid/cartodb/master/data/lobsters_taroona_2006-2010_cleaned.csv>`_
 (right or command click, save as...)
 
